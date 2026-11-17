@@ -1,0 +1,35 @@
+2026-10-05 00:27:50 início: rápido=0 passed · agente=codex · teto 20x30min · mem 8G
+2026-10-05 00:27:50 ciclo 1: começa
+2026-10-05 00:29:56 ciclo 1: agente saiu rc=0 em 126s
+2026-10-05 00:30:17 ciclo 1: rápido=20
+0 passed (melhor antes: 0)
+2026-10-05 00:30:17 ciclo 1: checkpoint commitado
+2026-10-05 00:30:38 ciclo 2: começa
+2026-10-05 00:33:51 ciclo 2: agente saiu rc=0 em 193s
+2026-10-05 00:34:56 ciclo 2: rápido=43
+0 passed (melhor antes: 0)
+2026-10-05 00:34:56 ciclo 2: checkpoint commitado
+2026-10-05 00:36:01 ciclo 3: começa
+2026-10-05 00:41:00 ciclo 3: agente saiu rc=0 em 299s
+2026-10-05 00:42:05 ciclo 3: rápido=63
+0 passed (melhor antes: 0)
+2026-10-05 00:42:05 ciclo 3: checkpoint commitado
+2026-10-05 00:43:09 PARADO: 3 ciclos sem avanço mensurável — ver failures.md
+2026-10-05 00:46:27 início: rápido=63 passed · agente=codex · teto 20x30min · mem 8G
+2026-10-05 00:46:27 ciclo 1: começa
+2026-10-05 00:52:46 ciclo 1: agente saiu rc=0 em 379s
+2026-10-05 00:53:52 ciclo 1: rápido=73 passed (melhor antes: 63)
+2026-10-05 00:53:52 ciclo 1: checkpoint commitado
+2026-10-05 00:54:58 ciclo 2: começa
+2026-10-05 01:00:30 ciclo 2: agente saiu rc=0 em 332s
+2026-10-05 01:01:02 ciclo 2: rápido=88 passed (melhor antes: 73)
+2026-10-05 01:01:02 ciclo 2: checkpoint commitado
+2026-10-05 01:01:34 ciclo 3: começa
+2026-10-05 01:05:56 ciclo 3: agente saiu rc=0 em 262s
+2026-10-05 01:06:22 ciclo 3: rápido=92 passed (melhor antes: 88)
+2026-10-05 01:06:22 ciclo 3: checkpoint commitado
+2026-10-05 01:06:48 ciclo 4: começa
+2026-10-05 01:14:08 ciclo 4: agente saiu rc=0 em 440s
+2026-10-05 01:14:34 ciclo 4: rápido=93 passed (melhor antes: 92)
+2026-10-05 01:14:34 ciclo 4: checkpoint commitado
+2026-10-05 01:14:59 CONCLUÍDO no ciclo 4: teste final passou (93 passed)
