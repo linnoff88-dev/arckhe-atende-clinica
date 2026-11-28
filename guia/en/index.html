@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atende Clínica — scheduling, WhatsApp and a Telegram team desk for clinics</title>
 <meta name="description" content="Open-source patient service system for clinics: online scheduling, automatic confirmation, waitlist, recall, FAQ, WhatsApp through Evolution, team desk on Telegram, Brazil's LGPD privacy law and a medical-council guard. Docker for a VPS.">
-<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/atende-clinica/guia/">
-<link rel="alternate" hreflang="en" href="https://inematds.github.io/atende-clinica/guia/en/">
-<link rel="alternate" hreflang="es" href="https://inematds.github.io/atende-clinica/guia/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://linnoff88-dev.github.io/atende-clinica/guia/">
+<link rel="alternate" hreflang="en" href="https://linnoff88-dev.github.io/atende-clinica/guia/en/">
+<link rel="alternate" hreflang="es" href="https://linnoff88-dev.github.io/atende-clinica/guia/es/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -39,8 +39,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .inema:hover{filter:brightness(1.15)}
+  nav .arckhe{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .arckhe:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -104,9 +104,9 @@
   <a class="brand" href="#top"><span class="emoji">🩺</span> Atende Clínica</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="arckhe" href="https://linnoff88-dev.github.io" target="_blank" rel="noopener">ARCKHé AI.CLUB</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://arckhe.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     <a class="sec" href="#oque">What it is</a>
@@ -116,7 +116,7 @@
     <a class="sec" href="#roadmap">Roadmap</a>
     <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
     <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
-    <a class="btn" href="https://github.com/inematds/atende-clinica" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://github.com/linnoff88-dev/atende-clinica" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></nav>
 
@@ -129,7 +129,7 @@
       <p class="lead">Online scheduling, automatic confirmation, waitlist and scheduled recall. Patients chat on WhatsApp (Evolution) or on the website chat, and the team steps in on Telegram when needed. Everything runs in one Docker container, with Brazil's LGPD privacy rules and the Brazilian professional councils' rules already built in.</p>
       <div class="cta">
         <a class="btn" href="#guia">Start the guide</a>
-        <a class="btn ghost" href="https://github.com/inematds/atende-clinica" target="_blank" rel="noopener">View on GitHub</a>
+        <a class="btn ghost" href="https://github.com/linnoff88-dev/atende-clinica" target="_blank" rel="noopener">View on GitHub</a>
       </div>
     </div>
     <figure><img src="../assets/banner-en.jpg" alt="Atende Clínica banner: scheduling, WhatsApp and the team on Telegram"></figure>
@@ -139,7 +139,7 @@
 <section id="oque"><div class="wrap">
   <span class="chip">What it is</span>
   <h2>Fewer no-shows, fewer ringing phones, more returning patients</h2>
-  <p class="sub">Unannounced no-shows are a clinic's number one leak: 5 to 12% on a well-run schedule, close to 25% on average. Atende Clínica tackles this with the pieces of the "Full schedule" recipe from the <a href="https://inematds.github.io/raio-x-margem/guia/en/" target="_blank" rel="noopener">Raio-X de Margem</a> and sends the month's numbers back to the recovery dashboard.</p>
+  <p class="sub">Unannounced no-shows are a clinic's number one leak: 5 to 12% on a well-run schedule, close to 25% on average. Atende Clínica tackles this with the pieces of the "Full schedule" recipe from the <a href="https://linnoff88-dev.github.io/raio-x-margem/guia/en/" target="_blank" rel="noopener">Raio-X de Margem</a> and sends the month's numbers back to the recovery dashboard.</p>
   <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="../assets/banner-grade-en.jpg" alt="Online scheduling, automatic confirmation, waitlist, WhatsApp Evolution, team on Telegram, LGPD and professional councils" loading="lazy" style="width:100%;display:block"></figure>
   <div class="grid g3">
     <div class="card"><h3>📅 A schedule that defends itself</h3><p>Hours per professional, days off and vacations, confirmation 48 h ahead with "1 confirms / 2 cancels". Whoever cancels frees the slot for the waitlist right away, and recall (e.g. a cleaning every 180 days) is reminded automatically.</p></div>
@@ -189,7 +189,7 @@
   <div class="step"><div class="b">1</div><div>
     <h3>Download and configure the clinic</h3>
     <p>Copy the example and edit <code>dados/clinica.json</code>: name, council (<code>cfm</code>, <code>cfo</code>, <code>coffito</code> or <code>estetica</code>; the Brazilian medical, dental, physiotherapy councils, or aesthetics), your <strong>own token</strong>, hours, holidays, professionals, services (with <code>retorno_dias</code>) and FAQ.</p>
-<pre><span class="k">git clone</span> <span class="s">https://github.com/inematds/atende-clinica</span> && <span class="k">cd</span> atende-clinica
+<pre><span class="k">git clone</span> <span class="s">https://github.com/linnoff88-dev/atende-clinica</span> && <span class="k">cd</span> atende-clinica
 <span class="k">mkdir</span> -p dados && <span class="k">cp</span> exemplos/clinica.json dados/clinica.json</pre>
   </div></div>
 
@@ -253,7 +253,7 @@
 <section id="roadmap"><div class="wrap">
   <span class="chip">Roadmap</span>
   <h2>Where it stands and where it's going</h2>
-  <p class="sub">v1 was built in a long agent run (the <a href="https://inematds.github.io/execucao-longa/guia/en/" target="_blank" rel="noopener">execucao-longa</a> method) against 93 frozen acceptance tests, then checked on a clinic the agent had never seen and in a real <code>docker build</code>.</p>
+  <p class="sub">v1 was built in a long agent run (the <a href="https://linnoff88-dev.github.io/execucao-longa/guia/en/" target="_blank" rel="noopener">execucao-longa</a> method) against 93 frozen acceptance tests, then checked on a clinic the agent had never seen and in a real <code>docker build</code>.</p>
   <div class="phase"><div class="tag">v1 ✅</div><div class="d"><strong>Complete patient service</strong><span>Scheduling, confirmation, waitlist, recall, FAQ, human queue, emergency, campaigns with a professional-council guard, LGPD, records, blocks, backup, Evolution, Telegram, Docker and export to Raio-X.</span></div></div>
   <div class="phase"><div class="tag">Next</div><div class="d"><strong>Pilot in a real clinic</strong><span>Set up real hours, services and FAQ, measure 4 weeks of no-shows (the "before") and track them in the Recovery Dashboard.</span></div></div>
   <div class="phase"><div class="tag">Later</div><div class="d"><strong>More channels and replies</strong><span>AI replies behind an option that is off by default, Pix deposits and plans (they require a payment integration) and an interface in English and Spanish.</span></div></div>
@@ -263,8 +263,8 @@
   <div class="wrap">
     <div class="pill">Python 3 · standard library</div><div class="pill">SQLite</div><div class="pill">Docker</div><div class="pill">Evolution API</div><div class="pill">Telegram</div>
     <p style="margin-top:18px">Atende Clínica · open project for clinics ·
-      <a href="https://github.com/inematds/atende-clinica">inematds/atende-clinica</a> ·
-      <a href="https://inema.club">INEMA.CLUB</a></p>
+      <a href="https://github.com/linnoff88-dev/atende-clinica">linnoff88-dev/atende-clinica</a> ·
+      <a href="https://linnoff88-dev.github.io">ARCKHé AI.CLUB</a></p>
   </div>
 </footer>
 

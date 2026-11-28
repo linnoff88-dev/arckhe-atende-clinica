@@ -2,7 +2,7 @@
 
 Sistema de atendimento ao paciente para clínicas: agenda, confirmação, lista de espera, retorno, FAQ, fila humana, campanhas com trava de conselho/LGPD e exportação para o Painel do Raio-X de Margem.
 
-- Repo local (sem remoto ainda). Autor de commit: `inematds <inematds@gmail.com>` (config local).
+- Repo local (sem remoto ainda). Autor de commit: `linnoff88-dev <linnoff88-dev@gmail.com>` (config local).
 - **Contrato:** `docs/ESPECIFICACAO.md`. Testes caixa-preta em `tests/` (pytest sobe `./atende serve --porta 0`). Contrato e testes são **protegidos** durante a execução longa — só humano altera, e aí recongela o hash no `goal.md`.
 - Decisões pendentes: `docs/DECISOES-ABERTAS.md`. Relação com o Raio-X: `docs/MAPA-RAIO-X.md`.
 - Execução longa: `longrun/2026-10-05-atendimento-v1/` (método em `~/projetos/execucao-longa`).

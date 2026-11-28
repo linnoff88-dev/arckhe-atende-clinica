@@ -13,8 +13,8 @@ AO TERMINAR O CICLO (obrigatório):
 - decisões de design em decisions.md; fatos e armadilhas novos em canal.md (só acrescentar);
 - quando `python3 -m pytest -q tests/` passar inteiro E `bash longrun/2026-10-05-atendimento-v1/verificar-limites.sh` imprimir LIMITES OK, escreva "concluído" na primeira linha de "## Funciona" do state.md.
 
-SE UM TESTE CONTRADIZ A ESPECIFICAÇÃO: não altere o teste nem a spec. Registre em failures.md (teste, trecho da spec, o conflito) e siga com os outros itens; isso é portão humano.
+SE UM TESTE CONTRADIZ A ESPECIFICAçãO: não altere o teste nem a spec. Registre em failures.md (teste, trecho da spec, o conflito) e siga com os outros itens; isso é portão humano.
 
-INTEGRAÇÕES: Evolution e Telegram só pelas variáveis de ambiente da spec; teste só contra o servidor falso dos testes. Nunca chame api.telegram.org nem uma Evolution real, nunca escreva URL externa no código.
+INTEGRAçÕES: Evolution e Telegram só pelas variáveis de ambiente da spec; teste só contra o servidor falso dos testes. Nunca chame api.telegram.org nem uma Evolution real, nunca escreva URL externa no código.
 
-RESTRIÇÕES: não altere tests/, pytest.ini, docs/, goal.md, hash-congelado.txt, congelar.sh, verificar-*. Só biblioteca padrão do Python 3 (`python3`, não `python`). Nenhuma API, nenhuma rede externa, nenhuma chave. Servidor só em 127.0.0.1. Não use `pkill -f`; mate só o PID que você subiu. Não faça commit (o loop externo faz).
+RESTRIçÕES: não altere tests/, pytest.ini, docs/, goal.md, hash-congelado.txt, congelar.sh, verificar-*. Só biblioteca padrão do Python 3 (`python3`, não `python`). Nenhuma API, nenhuma rede externa, nenhuma chave. Servidor só em 127.0.0.1. Não use `pkill -f`; mate só o PID que você subiu. Não faça commit (o loop externo faz).

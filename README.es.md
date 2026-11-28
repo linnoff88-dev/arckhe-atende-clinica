@@ -2,11 +2,11 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![Atende Clínica](guia/assets/banner-es.jpg)](https://inematds.github.io/atende-clinica/guia/es/)
+[![Atende Clínica](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/atende-clinica/guia/es/)
 
 ## 📖 Guía de uso
 
-Guía completa (landing + paso a paso): **https://inematds.github.io/atende-clinica/guia/es/**
+Guía completa (landing + paso a paso): **https://linnoff88-dev.github.io/atende-clinica/guia/es/**
 
 Atención de una clínica con Python 3 y biblioteca estándar: agenda, conversación por reglas, preguntas frecuentes, cola humana, recordatorios, espera, retornos, campañas, LGPD (ley de privacidad de Brasil) y exportación al Raio-X. Estado persistente en SQLite. Evolution y Telegram son opcionales y se configuran exclusivamente por el entorno. Las reglas integradas (LGPD y consejos profesionales de Brasil: CFM, CFO, COFFITO) son brasileñas, y la interfaz está en portugués.
 

@@ -2,11 +2,11 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![Atende Clínica](guia/assets/banner-en.jpg)](https://inematds.github.io/atende-clinica/guia/en/)
+[![Atende Clínica](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/atende-clinica/guia/en/)
 
 ## 📖 User guide
 
-Full guide (landing page + step by step): **https://inematds.github.io/atende-clinica/guia/en/**
+Full guide (landing page + step by step): **https://linnoff88-dev.github.io/atende-clinica/guia/en/**
 
 Clinic patient service built with Python 3 and its standard library: scheduling, rule-based conversation, FAQ, human queue, reminders, waitlist, recalls, campaigns, LGPD (Brazil's privacy law) and export to Raio-X. Persistent state in SQLite. Evolution and Telegram are optional and configured exclusively through the environment.
 
